@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "plantName": "Plant 1",
+    "plantText": "Text 1",
+    "imagePlant": "/plant1.png"
+  },
+  {
+    "id": 2,
+    "plantName": "Flower 2",
+    "plantText": "Text 2",
+    "imagePlant": "/plant1.png"
+  },
+  {
+    "id": 3,
+    "plantName": "Flower 2",
+    "plantText": "Text 2",
+    "imagePlant": "/plant1.png"
+  },
+  {
+    "id": 4,
+    "plantName": "Flower 2",
+    "plantText": "Text 2",
+    "imagePlant": "/plant1.png"
+  },
+  {
+    "id": 5,
+    "plantName": "Flower 2",
+    "plantText": "Text 2",
+    "imagePlant": "/plant1.png"
+  },
+  {
+    "id": 6,
+    "plantName": "Flower 2",
+    "plantText": "Text 2",
+    "imagePlant": "/plant1.png"
+  },
+  {
+    "id": 7,
+    "plantName": "Flower 2",
+    "plantText": "Text 2",
+    "imagePlant": "/plant1.png"
+  },
+  {
+    "id": 8,
+    "plantName": "Flower 2",
+    "plantText": "Text 2",
+    "imagePlant": "/plant1.png"
+  }
+]

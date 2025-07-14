@@ -1,0 +1,49 @@
+@use '../../variables' as *;
+
+.cardPlant {
+  position: relative;
+  width: 255px;
+  height: 493px;
+  border: solid black 1px;
+}
+
+.imagePlant {
+  width: 100%;
+  height: 180px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentPlant {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.titlePlant {
+  @include small_titles();
+}
+
+.textPlant {
+  padding-top: $small-sp;
+  @include small_text($gray);
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.bntCardPlant {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  padding: 10px 28px;
+  background-color: $main-bg-color;
+  border: $green-light solid 1px;
+  color: $green-light;
+  cursor: pointer;
+}

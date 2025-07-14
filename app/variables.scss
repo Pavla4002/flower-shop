@@ -1,0 +1,49 @@
+// Основные цвета
+$main-bg-color: #1D2F30;
+$green-light: #BAE249;
+$white: #FFFFFF;
+$gray: #899D9D;
+
+//Шрифты
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+// Оказалось, что Karla на русском не работат :(, вроде. Или это прото я крокодил
+$p-font: 'Playfair Display', serif;
+$h1-size: 60px;
+$h2-size: 48px;
+$h3-size: 24px;
+$s-size: 16px;
+
+@mixin bold_small_text($color:black){
+  font-size: $s-size;
+  color: $color;
+  font-weight: bold;
+}
+
+@mixin secondary_titles(){
+  font-size: $h2-size;
+  color: $white;
+  font-weight: bold;
+  font-style: italic;
+  font-family:$p-font;
+}
+
+@mixin small_titles($color:white){
+  font-size: $h3-size;
+  color: $color;
+  font-weight: 400;
+  font-family:$p-font;
+}
+
+@mixin small_text($color:white){
+  font-size: $s-size;
+  color: $color;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+//Отступы
+$main-padding-page:165px;
+$titles-section-sp: 30px;
+$between-text-sp: 16px;
+$small-sp: 8px;
+$secondary-sp: 24px;
