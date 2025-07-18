@@ -22,7 +22,7 @@ function ListPlants() {
     }, []);
 
     return (
-        <div>
+        <div className={styles.listPlantsBox}>
             {
                 data ? data.map(plant => <CardPlant key={plant.id} plant={plant}/>) : ''
             }
